@@ -42,9 +42,20 @@ const bookedmoviereducer = (state = [], action) => {
   }
 };
 
+
+const detailpagename = (state = [], action) => {
+  switch (action.type) {
+    case "MOVIE_DETAIL":
+      return action.data;
+    default:
+      return state;
+  }
+};
+
 export default combineReducers({
   sagaUpcomingMoviesReducer,
   sagaEvents,
   sagaMoviesReducer,
   bookedmoviereducer,
+  detailpagename
 });

@@ -19,7 +19,6 @@ function* fetchUpcomimgMovies(action) {
     try {
       const movies = yield axios.get(url_upcoming).then(response => response.data);
       yield put({type: 'UPCOMINGMOVIES_FETCH_SUCCEEDED', movies});
-      console.log('fetchUpcomimgMovies',movies );
     } catch (e) {
       yield put({type: 'UPCOMINGMOVIES_FETCH_FAILED', message: e.message});
     }
