@@ -12,6 +12,7 @@ class LatestMovies extends Component {
       this.props.movies && (
         <div
           style={{
+            width:'100rem',
             padding: "5rem",
             paddingTop: "0rem",
           }}

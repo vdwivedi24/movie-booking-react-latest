@@ -11,6 +11,7 @@ class Events extends Component {
       this.props.eventData && (
         <div
           style={{
+            width:'100rem',
             padding: "5rem",
             paddingTop: "1rem",
           }}

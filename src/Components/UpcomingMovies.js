@@ -13,6 +13,7 @@ class UpcomingMovies extends Component {
       this.props.upcomingmovies && (
         <div
           style={{
+            width:'100rem',
             padding: "5rem",
             paddingTop: "1rem",
           }}
