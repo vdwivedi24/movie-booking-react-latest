@@ -1160,25 +1160,6 @@
           }
       },
       {
-          "year": 2014,
-          "title": "Dumb and Dumber To",
-          "info": {
-              "directors": [
-                  "Bobby Farrelly",
-                  "Peter Farrelly"
-              ],
-              "release_date": "2014-01-01T00:00:00Z",
-              "genres": ["Comedy"],
-              "plot": "20 years after the dimwits set out on their first adventure, they head out in search of one of their long lost children in the hope of gaining a new kidney.",
-              "rank": 57,
-              "actors": [
-                  "Jennifer Lawrence",
-                  "Jim Carrey",
-                  "Jeff Daniels"
-              ]
-          }
-      },
-      {
           "year": 2013,
           "title": "Blue Jasmine",
           "info": {
@@ -1335,26 +1316,6 @@
                   "Ryan Gosling",
                   "Bradley Cooper",
                   "Eva Mendes"
-              ]
-          }
-      },
-      {
-          "year": 2014,
-          "title": "Fast & Furious 7",
-          "info": {
-              "directors": ["James Wan"],
-              "release_date": "2014-07-10T00:00:00Z",
-              "genres": [
-                  "Action",
-                  "Crime",
-                  "Thriller"
-              ],
-              "plot": "After Dominic Toretto and his crew helped take down Owen Shaw, his brother Ian Shaw now wants revenge.",
-              "rank": 65,
-              "actors": [
-                  "Vin Diesel",
-                  "Paul Walker",
-                  "Dwayne Johnson"
               ]
           }
       },
@@ -1544,27 +1505,6 @@
       },
       {
           "year": 2013,
-          "title": "The Hobbit: The Desolation of Smaug",
-          "info": {
-              "directors": ["Peter Jackson"],
-              "release_date": "2013-12-11T00:00:00Z",
-              "genres": [
-                  "Adventure",
-                  "Drama",
-                  "Fantasy"
-              ],
-              "image_url": "https://ia.media-imdb.com/images/M/MV5BMjAxMjMzMzAxOV5BMl5BanBnXkFtZTcwNTU3NzU2OQ@@._V1_SX400_.jpg",
-              "plot": "The Dwarves, Bilbo and Gandalf have successfully escaped the Misty Mountains, and Bilbo has gained the One Ring. They all continue their journey to get their gold back from the Dragon, Smaug.",
-              "rank": 74,
-              "actors": [
-                  "Martin Freeman",
-                  "Ian McKellen",
-                  "Richard Armitage"
-              ]
-          }
-      },
-      {
-          "year": 2013,
           "title": "Frozen",
           "info": {
               "directors": [
@@ -1748,16 +1688,6 @@
           }
       },
       {
-          "year": 2018,
-          "title": "Halloween III",
-          "info": {
-              "directors": ["Patrick Lussier"],
-              "genres": ["Horror"],
-              "plot": "The plot is unknown at this time.",
-              "rank": 4896
-          }
-      },
-      {
           "year": 1984,
           "title": "Repo Man",
           "info": {
@@ -1918,29 +1848,6 @@
           }
       },
       {
-          "year": 1980,
-          "title": "Coal Miner's Daughter",
-          "info": {
-              "directors": ["Michael Apted"],
-              "release_date": "1980-03-07T00:00:00Z",
-              "rating": 7.3,
-              "genres": [
-                  "Biography",
-                  "Drama",
-                  "Music"
-              ],
-              "image_url": "https://ia.media-imdb.com/images/M/MV5BODA5MzU3OTk5OV5BMl5BanBnXkFtZTcwMzY3NzAzMQ@@._V1_SX400_.jpg",
-              "plot": "Biography of Loretta Lynn, a country and western singer that came from poverty to fame.",
-              "rank": 4904,
-              "running_time_secs": 7500,
-              "actors": [
-                  "Sissy Spacek",
-                  "Tommy Lee Jones",
-                  "Levon Helm"
-              ]
-          }
-      },
-      {
           "year": 1999,
           "title": "Brokedown Palace",
           "info": {
@@ -2003,27 +1910,6 @@
                   "Marty Adams",
                   "Shaun Benson",
                   "Meghan Heffern"
-              ]
-          }
-      },
-      {
-          "year": 2001,
-          "title": "Say It Isn't So",
-          "info": {
-              "directors": ["J.B. Rogers"],
-              "release_date": "2001-03-12T00:00:00Z",
-              "rating": 4.7,
-              "genres": [
-                  "Comedy",
-                  "Romance"
-              ],
-              "image_url": "https://ia.media-imdb.com/images/M/MV5BMTMwNjcyNTAxOV5BMl5BanBnXkFtZTcwMzQ1NDEyMQ@@._V1_SX400_.jpg",
-              "rank": 4909,
-              "running_time_secs": 5700,
-              "actors": [
-                  "Chris Klein",
-                  "Heather Graham",
-                  "Orlando Jones"
               ]
           }
       },
@@ -2158,46 +2044,6 @@
                   "Bryce Dallas Howard",
                   "Isaach De Bankole",
                   "Danny Glover"
-              ]
-          }
-      },
-      {
-          "year": 2010,
-          "title": "Ca$h",
-          "info": {
-              "directors": ["Stephen Milburn Anderson"],
-              "release_date": "2010-03-01T00:00:00Z",
-              "rating": 5.9,
-              "genres": [
-                  "Comedy",
-                  "Crime",
-                  "Thriller"
-              ],
-              "image_url": "https://ia.media-imdb.com/images/M/MV5BMjE4MjY2OTIyN15BMl5BanBnXkFtZTcwODE2OTI3Nw@@._V1_SX400_.jpg",
-              "plot": "A man meets up with two \"good guys\" to recover what is unlawfully his, taking them on his whirlwind ride, doing things they never would have imagined, just to survive.",
-              "rank": 4919,
-              "running_time_secs": 6480,
-              "actors": [
-                  "Sean Bean",
-                  "Chris Hemsworth",
-                  "Victoria Profeta"
-              ]
-          }
-      },
-      {
-          "year": 1957,
-          "title": "Man on Fire",
-          "info": {
-              "directors": ["Ranald MacDougall"],
-              "release_date": "1957-08-22T00:00:00Z",
-              "rating": 6.2,
-              "genres": ["Drama"],
-              "rank": 4920,
-              "running_time_secs": 5700,
-              "actors": [
-                  "Bing Crosby",
-                  "Inger Stevens",
-                  "Mary Fickett"
               ]
           }
       },
@@ -2367,22 +2213,6 @@
                   "Lindsay Rose Binder",
                   "Jim Gaffigan",
                   "Dean Kapica"
-              ]
-          }
-      },
-      {
-          "year": 2013,
-          "title": "Where the Devil Hides",
-          "info": {
-              "directors": ["Christian E. Christiansen"],
-              "release_date": "2013-10-11T00:00:00Z",
-              "genres": ["Thriller"],
-              "plot": "When young girls start to go missing within a religious cult, older followers fear a long-told prophecy while the younger members suspect abusive elders are killing them off.",
-              "rank": 4930,
-              "actors": [
-                  "Rufus Sewell",
-                  "Alycia Debnam Carey",
-                  "Adelaide Kane"
               ]
           }
       },
@@ -2784,23 +2614,6 @@
           }
       },
       {
-          "year": 2013,
-          "title": "The Last Knights",
-          "info": {
-              "directors": ["Kazuaki Kiriya"],
-              "genres": [
-                  "Action",
-                  "Adventure"
-              ],
-              "rank": 4949,
-              "actors": [
-                  "Morgan Freeman",
-                  "Clive Owen",
-                  "Aksel Hennie"
-              ]
-          }
-      },
-      {
           "year": 1920,
           "title": "Das Cabinet des Dr. Caligari",
           "info": {
@@ -3018,30 +2831,6 @@
           }
       },
       {
-          "year": 1995,
-          "title": "Dolores Claiborne",
-          "info": {
-              "directors": ["Taylor Hackford"],
-              "release_date": "1995-03-24T00:00:00Z",
-              "rating": 7.2,
-              "genres": [
-                  "Crime",
-                  "Drama",
-                  "Mystery",
-                  "Thriller"
-              ],
-              "image_url": "https://ia.media-imdb.com/images/M/MV5BMjE4NDIwNzgwN15BMl5BanBnXkFtZTcwNzk3MDAzMQ@@._V1_SX400_.jpg",
-              "plot": "A big-city reporter travels to the small town where her mother has been arrested for the murder of an elderly woman that she works for as a maid.",
-              "rank": 4964,
-              "running_time_secs": 7920,
-              "actors": [
-                  "Kathy Bates",
-                  "Jennifer Jason Leigh",
-                  "Christopher Plummer"
-              ]
-          }
-      },
-      {
           "year": 2011,
           "title": "The Entitled",
           "info": {
@@ -3130,27 +2919,6 @@
                   "Noah Bean",
                   "Rachel Boston",
                   "Anna Chlumsky"
-              ]
-          }
-      },
-      {
-          "year": 1966,
-          "title": "Grand Prix",
-          "info": {
-              "directors": ["John Frankenheimer"],
-              "release_date": "1966-12-21T00:00:00Z",
-              "rating": 6.8,
-              "genres": [
-                  "Drama",
-                  "Sport"
-              ],
-              "image_url": "https://ia.media-imdb.com/images/M/MV5BMjA0OTAzMDg1Ml5BMl5BanBnXkFtZTcwMzcwMzUzMg@@._V1_SX400_.jpg",
-              "rank": 4973,
-              "running_time_secs": 10560,
-              "actors": [
-                  "James Garner",
-                  "Eva Marie Saint",
-                  "Yves Montand"
               ]
           }
       },
@@ -3259,32 +3027,6 @@
           }
       },
       {
-          "year": 1984,
-          "title": "The Philadelphia Experiment",
-          "info": {
-              "directors": ["Stewart Raffill"],
-              "release_date": "1984-08-03T00:00:00Z",
-              "rating": 6.1,
-              "genres": [
-                  "Adventure",
-                  "Drama",
-                  "Fantasy",
-                  "Romance",
-                  "Sci-Fi",
-                  "Thriller"
-              ],
-              "image_url": "https://ia.media-imdb.com/images/M/MV5BMjA2MDA5NTg5OF5BMl5BanBnXkFtZTcwMTEwNDI4OA@@._V1_SX400_.jpg",
-              "plot": "A United States Navy destroyer escort participates in a Navy \"invisibility\" experiment that inadvertently sends two sailors 40 years into the future.",
-              "rank": 4979,
-              "running_time_secs": 6120,
-              "actors": [
-                  "Michael Pare",
-                  "Nancy Allen",
-                  "Eric Christmas"
-              ]
-          }
-      },
-      {
           "year": 1998,
           "title": "Dead Man on Campus",
           "info": {
@@ -3369,28 +3111,6 @@
                   "Louise Bourgoin",
                   "Mathieu Amalric",
                   "Gilles Lellouche"
-              ]
-          }
-      },
-      {
-          "year": 1993,
-          "title": "Searching for Bobby Fischer",
-          "info": {
-              "directors": ["Steven Zaillian"],
-              "release_date": "1993-08-11T00:00:00Z",
-              "rating": 7.5,
-              "genres": [
-                  "Comedy",
-                  "Drama"
-              ],
-              "image_url": "https://ia.media-imdb.com/images/M/MV5BMTI3NzY3ODg3N15BMl5BanBnXkFtZTcwNzU1NzcyMQ@@._V1_SX400_.jpg",
-              "plot": "A prepubescent chess prodigy refuses to harden himself in order to become a champion like the famous but unlikable Bobby Fischer.",
-              "rank": 4984,
-              "running_time_secs": 6540,
-              "actors": [
-                  "Joe Mantegna",
-                  "Ben Kingsley",
-                  "Max Pomeranc"
               ]
           }
       },
@@ -3517,23 +3237,6 @@
                   "Gregory Peck",
                   "Robert Mitchum",
                   "Polly Bergen"
-              ]
-          }
-      },
-      {
-          "year": 1957,
-          "title": "Trooper Hook",
-          "info": {
-              "directors": ["Charles Marquis Warren"],
-              "release_date": "1957-07-12T00:00:00Z",
-              "rating": 6.5,
-              "genres": ["Western"],
-              "rank": 4992,
-              "running_time_secs": 4860,
-              "actors": [
-                  "Joel McCrea",
-                  "Barbara Stanwyck",
-                  "Earl Holliman"
               ]
           }
       },
