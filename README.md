@@ -24,7 +24,3 @@ A simple movie ticket reservation app with react and redux
 
 5. run `npm start` after successfully completing the above steps in another terminal to launch the react app (http://localhost:3000)
 6. visit <http://localhost:3000/>
-
-### tests
-
-1. run `yarn test`
