@@ -1,4 +1,4 @@
-# movie-ticket-reservation
+# movie-ticket-booking
 
 A simple movie ticket reservation app with react and redux
 
