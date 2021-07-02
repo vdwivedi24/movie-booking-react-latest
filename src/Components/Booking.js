@@ -1,16 +1,41 @@
-import React, { Component } from "react";
+import React, { Component, useEffect } from "react";
 import QRCodeGenerator from "./QRCodeGenerator";
+import { connect } from "react-redux";
 
-
-function Booking(props){
-    return(
+function Booking(props) {
+  useEffect(() => {
+    props.onMovieBooking();
+  }, []);
+  return (
     <div
-    style={{
-        padding: "5rem"
-      }}>
-    <QRCodeGenerator name='We Are What We Are' image='https://ia.media-imdb.com/images/M/MV5BMjI3NjI3NjAyN15BMl5BanBnXkFtZTgwODE3NzMxMDE@._V1_SX400_.jpg' actors='Bill Sage' />
+      style={{
+        padding: "5rem",
+      }}
+    >
+      {props.bookedMovie && (
+        <QRCodeGenerator
+          name={props.bookedMovie.name}
+          image={props.bookedMovie.image}
+          actors={props.bookedMovie.actors}
+          seats={props.bookedMovie.seats}
+          plot={props.bookedMovie.plot}
+          genres={props.bookedMovie.genres}
+        />
+      )}
     </div>
-    )
+  );
 }
 
-export default Booking;
+const mapStateToProps = (state) => {
+  return {
+    bookedMovie: state.bookedmoviereducer,
+  };
+};
+
+function mapDispatchToProps(dispatch) {
+  return {
+    onMovieBooking: () => dispatch({ type: "BOOKED_MOVIE_FETCH" }),
+  };
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Booking);
