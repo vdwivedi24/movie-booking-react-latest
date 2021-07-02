@@ -17,7 +17,7 @@ class LatestMovies extends Component {
           }}
         >
           <ImageCarousel />
-          <MovieList movieList={this.props.movies} />
+          <MovieList movieList={this.props.movies} pageName='latest'/>
         </div>
       )
     );

@@ -1,10 +1,19 @@
-import React, { Component, useState } from "react";
-import { Card, Button, Form, FormCheck, CardGroup } from "react-bootstrap";
+import React, { useState, useEffect } from "react";
+import { Card, Button, Form, CardGroup } from "react-bootstrap";
+import { useLocation } from "react-router-dom";
+
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
 
 function Moviedetail(props) {
   const id = props.match.params.id;
+  const location = useLocation();
+  const currentPage = location.pathname.split("/")[1];
+
+  useEffect(() => {
+    props.saveCurrentPageNameToStore(currentPage);
+  }, []);
+
   const [seat, setSeats] = useState(1);
   const onChangeSeat = (event) => {
     setSeats(event.target.value);
@@ -63,7 +72,7 @@ function Moviedetail(props) {
           >
             <Card.Body
               style={{
-                paddingTop: ".5rem",
+                paddingTop: "1rem",
                 paddingRight: "5rem",
                 paddingLeft: "10rem",
                 padding: ".5rem",
@@ -115,7 +124,6 @@ function Moviedetail(props) {
                 style={{
                   width: "25rem",
                   marginTop: "1rem",
-                  marginBottom: "1rem",
                   marginLeft: "1rem",
                   paddingRight: "1rem",
                   marginBottom: "1rem",
@@ -135,16 +143,26 @@ function Moviedetail(props) {
 }
 
 const mapStateToProps = (state) => {
+  const reducerName =
+    state.detailpagename === "upcoming"
+      ? state.sagaUpcomingMoviesReducer
+      : state.detailpagename === "events"
+      ? state.sagaEvents
+      : state.sagaMoviesReducer;
   return {
-    movieData: state.sagaMoviesReducer,
+    movieData: reducerName,
     bookedMovie: state.bookedmoviereducer,
   };
 };
 
 function mapDispatchToProps(dispatch) {
   return {
-    onMovieBooking: (dataToSave) =>
-      dispatch({ type: "BOOKED_MOVIE", data: dataToSave }),
+    onMovieBooking: (dataToSave) => {
+      dispatch({ type: "BOOKED_MOVIE", data: dataToSave });
+    },
+    saveCurrentPageNameToStore: (pageName) => {
+      dispatch({ type: "MOVIE_DETAIL", data: pageName });
+    },
   };
 }
 

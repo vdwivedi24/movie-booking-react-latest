@@ -1,6 +1,7 @@
-import ImageCarousel from "./ImageCarousel";
 import React, { Component } from "react";
 import { connect } from "react-redux";
+
+
 import MovieList from "./movies/MovieList";
 
 class UpcomingMovies extends Component {
@@ -17,7 +18,7 @@ class UpcomingMovies extends Component {
           }}
         >
           <h3>Upcoming movies</h3>
-          <MovieList movieList={this.props.upcomingmovies} isUpcoming={true} />
+          <MovieList movieList={this.props.upcomingmovies} pageName='upcoming'/>
         </div>
       )
     );

@@ -24,7 +24,7 @@ class MovieList extends Component {
                 }}
               >
                 <MovieItem
-                  upcoming={this.props.isUpcoming}
+                  pageName={this.props.pageName}
                   key={movie.info.rank}
                   id={movie.info.rank}
                   name={movie.title}
