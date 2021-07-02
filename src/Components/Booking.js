@@ -1,4 +1,4 @@
-import React, { Component, useEffect } from "react";
+import React, {  useEffect } from "react";
 import QRCodeGenerator from "./QRCodeGenerator";
 import { connect } from "react-redux";
 import { Button } from "react-bootstrap";
@@ -26,7 +26,7 @@ function Booking(props) {
           />
           <p>
             <strong>Congratulations!</strong> You have successfully booked the
-            ticket for <strong>{props.bookedMovie.name}</strong>. Enjoy your
+            tickets for <strong>{props.bookedMovie.name}</strong>. Enjoy your
             time.
           </p>
           <p>
@@ -47,9 +47,8 @@ function Booking(props) {
               marginTop: "1rem",
               marginBottom: "1rem",
               marginLeft: "1rem",
-              paddingRight: "1rem",
-              marginBottom: "1rem",
-            }}
+              paddingRight: "1rem"
+              }}
             variant="dark"
             size="md"
           >

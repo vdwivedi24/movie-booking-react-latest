@@ -1,4 +1,3 @@
-import ImageCarousel from "./ImageCarousel";
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import MovieList from './movies/MovieList';
@@ -17,7 +16,7 @@ class Events extends Component {
           }}
         >
           <h3>Events</h3>
-          <MovieList movieList={this.props.eventData} isUpcoming={true} />
+          <MovieList movieList={this.props.eventData} pageName='events'/>
         </div>
       )
     );

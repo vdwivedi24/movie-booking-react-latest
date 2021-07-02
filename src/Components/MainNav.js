@@ -1,4 +1,4 @@
-import { Navbar, Nav, Button, FormControl, Form } from "react-bootstrap";
+import { Navbar, Nav, Button } from "react-bootstrap";
 import React, { Component } from "react";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import Latest from "./movies/LatestMovies";
@@ -36,7 +36,7 @@ class NavBarCompoment extends Component {
         <div>
           <Route exact path="/" component={Latest}></Route>
           <Route exact path="/upcoming" component={UpcomingMovies}></Route>
-          <Route exact path="/moviedetail/:id" component={Moviedetail}></Route>
+          <Route exact path="/:pageName/detail/:id" component={Moviedetail}></Route>
           <Route exact path="/events" component={Events}></Route>
           <Route exact path="/booking" component={Booking}></Route>
         </div>
