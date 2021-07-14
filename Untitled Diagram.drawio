@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-14T18:40:44.481Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="Q9U7sWY0QZR1Lq6xGDIg" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-14T18:41:07.691Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="EY02FOaOfDtaeQa9JdcS" version="14.6.11" type="github">
   <diagram id="6XrNnMwTjizTvmi12s9V" name="Page-1">
     <mxGraphModel dx="1186" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#114B5F" math="0" shadow="0">
       <root>
@@ -124,10 +124,10 @@
           <mxGeometry x="382" y="175" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sbzjjTPY3tP2-vInJ4SF-58" value="Movie Booking confirmation page" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="320" y="940" width="120" height="60" as="geometry" />
+          <mxGeometry x="300" y="970" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sbzjjTPY3tP2-vInJ4SF-60" value="Depending on the number of seat user selects, user navigate to the booking page having all the details along with the QR code." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=14;fontColor=#E4FDE1;" vertex="1" parent="1">
-          <mxGeometry x="396" y="849" width="180" height="60" as="geometry" />
+          <mxGeometry x="381" y="880" width="180" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
